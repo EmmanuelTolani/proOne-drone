@@ -1,0 +1,117 @@
+.drone-process {
+  background: url("/img/progress-bg.svg");
+  background-size: cover;
+  background-position: top center;
+  height: auto;
+  padding: 100px 50px 100px;
+}
+.drone-process__container {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+.drone-process__title {
+  text-align: center !important;
+  margin-bottom: 2rem;
+}
+.drone-process__title h2 {
+  margin-top: 2rem;
+  font-size: 38px;
+  line-height: 48px;
+  color: #3C368C;
+  font-weight: 700;
+  text-align: center;
+}
+.drone-process__title p {
+  font-size: 16px;
+  color: #707070;
+  text-align: center;
+}
+.drone-process__main-content {
+  padding: 50px 0;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  width: 100%;
+  align-items: center;
+}
+.drone-process__left {
+  text-align: right;
+}
+.drone-process__left .process-left {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5em;
+}
+.drone-process__left .process-left h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #3C368C;
+  font-weight: 700;
+}
+.drone-process__left .process-left p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #707070;
+}
+.drone-process__img {
+  width: 100%;
+  max-width: 600px;
+  object-fit: contain;
+  height: auto;
+}
+.drone-process__img img {
+  height: 100%;
+  width: 100%;
+}
+.drone-process__img .button-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.drone-process__img .button-container .button a {
+  text-align: center;
+  padding: 10px 20px;
+  background: #FEAC01;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.drone-process__img .button-container .button a .fas {
+  padding-right: 5px;
+}
+.drone-process__img .button-container .button a:hover {
+  color: white;
+}
+.drone-process__right {
+  text-align: left;
+}
+.drone-process__right .process-right {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5em;
+}
+.drone-process__right .process-right h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #3C368C;
+  font-weight: 700;
+}
+.drone-process__right .process-right p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #707070;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+  .drone-process__main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */

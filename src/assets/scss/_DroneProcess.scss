@@ -1,0 +1,159 @@
+.drone-process {
+    background: url("../img/progress-bg.svg");
+    background-size: cover;
+    background-position: top center;
+    height: auto;
+    padding: 100px 50px 100px;
+
+    &__container {
+        display: flex;
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
+        // flex-direction: column;
+
+    }
+
+    &__title {
+        text-align: center !important;
+        margin-bottom: 2rem;
+
+        h2 {
+            margin-top: 2rem;
+            font-size: 38px;
+            line-height: 48px;
+            color: #3C368C;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+            color: #707070;
+            text-align: center;
+        }
+
+    }
+
+    &__main-content {
+        padding: 50px 0;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        width: 100%;
+        align-items: center;
+    }
+
+    &__left {
+        text-align: right;
+
+        .process-left {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1.5em;
+
+            h3 {
+                font-size: 24px;
+                line-height: 30px;
+                color: #3C368C;
+                font-weight: 700;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 24px;
+                color: #707070;
+            }
+        }
+    }
+
+    &__img {
+        width: 100%;
+        max-width: 600px;
+        object-fit: contain;
+        height: auto;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .button-container {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+
+            .button {
+                a {
+                    text-align: center;
+                    padding: 10px 20px;
+                    background: #FEAC01;
+                    font-size: 0.9rem;
+                    text-transform: uppercase;
+                    cursor: pointer;
+
+                    .fas {
+                        padding-right: 5px;
+                    }
+
+                    &:hover {
+                        color: white;
+                    }
+                }
+
+            }
+        }
+    }
+
+    &__right {
+        text-align: left;
+
+        .process-right {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1.5em;
+
+            h3 {
+                font-size: 24px;
+                line-height: 30px;
+                color: #3C368C;
+                font-weight: 700;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 24px;
+                color: #707070;
+            }
+        }
+    }
+
+}
+
+
+
+// Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 576px) {}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 577px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+    .drone-process {
+
+        &__main-content {
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

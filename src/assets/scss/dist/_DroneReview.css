@@ -1,0 +1,122 @@
+.drone-reviews {
+  background-image: url("/img/testimonial-bg.svg");
+  background-size: cover;
+  background-position: center;
+  padding: 118px 50px 130px;
+  height: auto;
+}
+.drone-reviews__container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+.drone-reviews__reviews {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.drone-reviews__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.drone-reviews__title h1 {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 700;
+  text-align: center;
+}
+.drone-reviews__title h1 br {
+  display: none;
+}
+.drone-reviews__title p {
+  padding: 0 1rem;
+  text-align: center;
+}
+.drone-reviews__title p br {
+  display: none;
+}
+.drone-reviews__single-review {
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #3C368C;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+.drone-reviews__single-review:nth-child(2) {
+  display: none;
+}
+.drone-reviews__single-review:hover {
+  border: 3px solid #3C368C;
+}
+.drone-reviews__img {
+  display: inline-block;
+  margin-top: -65px;
+  border: 5px solid #3C368C;
+  background: #3C368C;
+  border-radius: 50%;
+  max-width: 120px;
+  width: 100%;
+}
+.drone-reviews__img img {
+  max-width: 110px;
+  max-height: 90px;
+}
+.drone-reviews__review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.drone-reviews__review .fas {
+  font-size: 30px;
+  color: #3C368C;
+  line-height: 48px;
+  margin: 3px 0 1px;
+  display: block;
+  text-align: center;
+}
+.drone-reviews__review p {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.drone-reviews__star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.drone-reviews__star .fas {
+  color: #FEAC01;
+  font-size: 0.8rem;
+  padding: 0 3px;
+}
+.drone-reviews__user h5 {
+  color: blue;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 5px 0 6px;
+}
+.drone-reviews__user p {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 767px) {
+  .drone-reviews__reviews {
+    flex-direction: column;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */

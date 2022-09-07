@@ -1,0 +1,109 @@
+.drone-price {
+  padding: 100px 50px 100px;
+}
+.drone-price__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+.drone-price__title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.drone-price__title h2 {
+  font-size: 32px;
+}
+.drone-price__title p {
+  color: #7d7d7d;
+}
+.drone-price__title p br {
+  display: none;
+}
+.drone-price__offers {
+  padding: 0 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 0 2rem;
+}
+.drone-price__single-price {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #FEAC01;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.drone-price__single-price:hover {
+  box-shadow: 0px 30px 80px rgba(0, 0, 0, 0.1);
+  border: 3px solid #FEAC01;
+}
+.drone-price_single-title h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #3C368C;
+}
+.drone-price__single-img {
+  display: flex;
+  align-items: center;
+  height: auto;
+  max-width: 300px;
+}
+.drone-price__single-img img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.drone-price__price {
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.drone-price__price h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #FEAC01;
+  margin-bottom: 29px;
+}
+.drone-price__price p {
+  text-align: center;
+  color: #7d7d7d;
+}
+.drone-price__btn {
+  padding: 20px 0;
+}
+.drone-price__btn a {
+  text-align: center;
+  padding: 10px 20px;
+  background: #FEAC01;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.drone-price__btn a .fas {
+  padding-right: 5px;
+}
+.drone-price__btn a:hover {
+  color: white;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 767px) {
+  .drone-price__offers {
+    flex-direction: column;
+    gap: 80px;
+  }
+  .drone-price__single-price {
+    height: 585px;
+    padding: 2rem 0 !important;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */

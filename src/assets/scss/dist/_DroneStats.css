@@ -1,0 +1,79 @@
+.drone-stats {
+  background: white;
+  background: url("/img/funfacts-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 100px 50px 100px;
+}
+.drone-stats__container {
+  max-width: 1200px;
+  margin: auto;
+}
+.drone-stats__img {
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin: 0 auto;
+  position: relative;
+  top: -120px;
+  min-width: 930px;
+  min-height: 200px;
+}
+.drone-stats__img img {
+  max-width: 100%;
+}
+.drone-stats__main-content {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.drone-stats__text {
+  text-align: center;
+}
+.drone-stats__title h1 {
+  color: white;
+  font-size: 32px;
+  line-height: 42px;
+}
+.drone-stats__title p {
+  color: white;
+}
+.drone-stats__stats {
+  padding: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.drone-stats__stats li {
+  margin-bottom: 30px;
+  padding-bottom: 0 15px;
+}
+.drone-stats__stats li .counter {
+  color: #FEAC01;
+  font-size: 50px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.drone-stats__stats li h2 {
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 24px;
+  color: white;
+}
+.drone-stats__stats li p {
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .drone-stats__stats {
+    flex-direction: column;
+  }
+}

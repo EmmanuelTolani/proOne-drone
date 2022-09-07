@@ -1,0 +1,128 @@
+.header {
+  margin-bottom: 5rem;
+  padding: 25px 0;
+  width: 100%;
+}
+.header__container {
+  max-width: 1200px;
+  margin: auto;
+  z-index: 99;
+  padding: 0.3rem 0;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  height: 63px;
+  width: 190px;
+}
+.header__logo img {
+  height: auto;
+  cursor: pointer;
+}
+.header__navigation {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.header__navigation li a {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  padding: 0 1rem;
+  color: white;
+}
+.header__navigation li a:hover {
+  cursor: pointer;
+  color: #FEAC01;
+}
+.header__btn {
+  display: flex;
+  padding: 0.7rem 1.8rem;
+  background: #B34DD4;
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.header__btn a .fas {
+  color: #d39309;
+  margin-right: 0.5rem;
+  font-size: 0.8rem;
+}
+.header__btn a:hover {
+  color: white !important;
+}
+.header__btn:hover {
+  background: #FEAC01;
+}
+.header__btn:hover .fas {
+  color: white;
+}
+.header__btn:hover a {
+  color: white;
+}
+.header .sticky {
+  padding-bottom: 50px;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.header .header_container {
+  overflow: hidden;
+}
+.header .hamburger-menu {
+  padding-right: 1.5rem;
+  display: none;
+}
+.header .hamburger-menu .fas {
+  font-size: 1.3rem;
+  border-radius: 3px;
+  background: yellow;
+  color: white;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+.header .dropdown-container {
+  z-index: 99 !important;
+  visibility: none;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+.header .dropdown-container.active {
+  cursor: pointer;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.6s ease-in-out;
+  z-index: 99 !important;
+}
+.header .dropdown-menu {
+  transition: all 0.6s ease-in-out;
+}
+.header .dropdown-menu li {
+  background: #19181A;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.header .dropdown-menu li:hover {
+  color: #3498DB;
+  background: #232323;
+  text-transform: underline;
+}
+.header .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1040px) {
+  .header {
+    display: none;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */

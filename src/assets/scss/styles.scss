@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Roboto:wght@400;500;700&display=swap");
+@import "reset";
+@import "variables";
+@import "plugins";
+@import "Header";
+@import "LandingTitle";
+@import "DroneSpecs";
+@import "DroneStats";
+@import "DroneProcess";
+@import "DroneVideo";
+@import "DronePrice";
+@import "DroneReview";
+@import "DroneSubscribe";
+@import "DroneFooter";
+@import "MobileMenu";
+
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  overflow-x: hidden;
+
+}
+
+
+#app {
+  line-height: 1;
+  background: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  // margin: auto;
+  // padding: 0;
+  overflow-x: hidden;
+}
+
+
+.top-section {
+  height: 140vh;
+  width: 100%;
+  background: url("../img/hero-bg.svg") no-repeat;
+  background-position: 50% 80%;
+  background-size: cover;
+  width: 100%;
+  z-index: 0;
+}
+
+.container {
+  max-width: 1366px;
+  margin: auto;
+}
+
+a {
+  color: #303030;
+  /*transition*/
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+a,
+a>* {
+  cursor: pointer;
+  outline: medium none;
+  text-decoration: none;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
+
+:focus {
+  outline: none;
+}
+
+/* === 2.1 Headings === */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #3C368C;
+  margin: 0 0 15px;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 38px;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+/* === PARAGRAPH === */
+p {
+  margin: 0 0 10px;
+  color: #707070;
+}
+
+b,
+strong {
+  font-weight: 600;
+}

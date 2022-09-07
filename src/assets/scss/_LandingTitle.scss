@@ -1,0 +1,137 @@
+.landing {
+    width: 100%;
+
+    &__container {
+        margin: auto;
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__title {
+        padding: 0 1rem;
+        margin-bottom: 2rem;
+
+        h1 {
+            z-index: -1;
+            color: white;
+            text-align: center;
+            font-size: 58px !important;
+            line-height: 68px !important;
+        }
+    }
+
+    &__img {
+        padding: 0 1rem;
+        z-index: 0.5 !important;
+        max-width: 1140px;
+        animation: yoyo 3s ease-in-out infinite;
+        animation-name: yoyo;
+        animation-direction: alternate;
+
+        img {
+            height: 100%; //height
+            width: 100%; //width
+            z-index: 0;
+            object-fit: contain;
+
+        }
+    }
+
+    @keyframes yoyo {
+        from {
+            transform: translate(0px, 100px);
+        }
+
+        to {
+            transform: translate(0px, -100px);
+        }
+    }
+
+
+
+    // Extra small devices (phones, 600px and down)
+    @media only screen and (max-width: 576px) {
+        .landing {
+            &__container {
+                padding: 1rem 0;
+            }
+
+            &__title {
+                padding: 0 0.5rem;
+
+                h1 {
+                    font-size: 36px !important;
+                    line-height: 46px !important;
+
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 577px) {
+        .landing {
+            &__container {
+                max-width: 540px;
+                padding: 1rem 0;
+            }
+
+            &__title {
+                padding: 0 0.5rem;
+
+                h1 {
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+        #LandingTitle {
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 720px;
+        }
+
+        .title-container {
+            h1 {
+                br {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+        .landing {
+            &__container {
+                width: 100%;
+                max-width: 1140px;
+            }
+
+            &__title {
+                h1 {
+                    br {
+                        display: block;
+                    }
+                }
+            }
+
+
+
+        }
+    }
+}

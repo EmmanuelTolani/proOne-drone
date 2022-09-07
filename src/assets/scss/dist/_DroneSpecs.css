@@ -1,0 +1,111 @@
+.drone-specs {
+  padding: 118px 50px 95px;
+}
+.drone-specs__container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.drone-specs__left {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.drone-specs__title {
+  margin-top: 1.3rem;
+  color: #707070;
+}
+.drone-specs__overview {
+  font-size: 2.375rem;
+  line-height: 42px;
+}
+.drone-specs__all {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  opacity: 1;
+}
+.drone-specs__all-specs {
+  margin-top: 2.6rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+.drone-specs__all-specs .spec {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  opacity: 1;
+}
+.drone-specs__all-specs .spec img {
+  height: 72px;
+  padding-right: 14px;
+}
+.drone-specs__all-specs .spec-text h6 {
+  font-size: 0.9275rem;
+  color: #707070;
+  margin: 0;
+}
+.drone-specs__all-specs .spec-text h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.drone-specs__img {
+  object-fit: contain;
+  vertical-align: center;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+.drone-specs__img img {
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+  .drone-specs {
+    width: 100%;
+  }
+  .drone-specs__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: flex-start;
+    gap: 100px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 577px) {
+  .drone-specs__container {
+    flex-wrap: wrap;
+    gap: 80px;
+  }
+  .drone-specs__all-specs {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: flex-start;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 767px) {
+  .drone-specs__container {
+    flex-wrap: wrap;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .drone-specs__container {
+    flex-wrap: nowrap;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .drone-specs__container {
+    flex-wrap: wrap;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */

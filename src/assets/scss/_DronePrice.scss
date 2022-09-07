@@ -1,0 +1,157 @@
+.drone-price {
+    padding: 100px 50px 100px;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
+    }
+
+    &__title {
+        text-align: center;
+
+        h2 {
+            font-size: 32px;
+
+        }
+
+        p {
+            color: #7d7d7d;
+
+            br {
+                display: none;
+            }
+        }
+
+        margin-bottom: 2rem;
+    }
+
+    &__offers {
+        padding: 0 3rem;
+        display: flex;
+        justify-content: center;
+        gap: 0 2rem;
+
+    }
+
+    &__single-price {
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #FEAC01;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            box-shadow: 0px 30px 80px rgba(0, 0, 0, 0.1);
+            border: 3px solid #FEAC01;
+        }
+    }
+
+    &_single-title {
+        h2 {
+            text-align: center;
+            font-size: 24px;
+            font-weight: 600;
+            color: #3C368C;
+        }
+    }
+
+    &__single-img {
+        display: flex;
+        align-items: center;
+        height: auto;
+        max-width: 300px;
+
+        img {
+            max-width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__price {
+        padding-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-size: 50px;
+            font-weight: 600;
+            color: #FEAC01;
+            margin-bottom: 29px;
+        }
+
+        p {
+            text-align: center;
+            color: #7d7d7d;
+
+        }
+    }
+
+    &__btn {
+        padding: 20px 0;
+
+        a {
+            text-align: center;
+            padding: 10px 20px;
+            background: #FEAC01;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            cursor: pointer;
+
+            .fas {
+                padding-right: 5px;
+            }
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+
+
+}
+
+
+
+
+
+// Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 566px) {}
+
+// Extra small devices (phones, 600px and down)
+@media only screen and (min-width: 567px) {}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 767px) {
+    .drone-price {
+        &__offers {
+            flex-direction: column;
+            gap: 80px;
+        }
+
+        &__single-price {
+            height: 585px;
+            // width: 33.33%;
+            padding: 2rem 0 !important;
+        }
+    }
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
