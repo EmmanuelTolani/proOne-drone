@@ -4,7 +4,7 @@ My goal was to simulate a professional work experience.
 * I worked with tasks on a Kanban board
 ## How to navigate this project
 * [Layout and content files](../../tree/main/src/assets/js/components)
-* [Custom styling with scss](../../tre/main/src/assets/scss)
+* [Custom styling with scss](../../tree/main/src/assets/scss)
   
 ### Why I built this project this way 
 * I wanted to create a modern looking landing page with animations. I decided to separate the layouts and the content because the layout is reusable it won't change page to page. 
