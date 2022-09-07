@@ -3,7 +3,9 @@ My goal was to simulate a professional work experience.
 * I built this app based on Figma designs
 * I worked with tasks on a Kanban board
 ## How to navigate this project
-  [I'm a relative reference to a repository file](../blob/master/LICENSE)
+* [Layout and content files](../../tree/main/src/assets/js/components)
+* [Custom styling with scss](../../tre/main/src/assets/scss)
+  
 ### Why I built this project this way 
 * I wanted to create a modern looking landing page with animations. I decided to separate the layouts and the content because the layout is reusable it won't change page to page. 
 * I used gsap to create smooth, eye-catching animations to reduce the bounce rate on the website. In addition, I implemented scroll trigger to ensure the animation starts only when the content is in the view.
