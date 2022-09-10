@@ -21,4 +21,4 @@ My goal was to simulate a professional work experience.
 ##### Available Scripts
 * Npm run start
 * Npm run eject
-*Npm run build
+* Npm run build
