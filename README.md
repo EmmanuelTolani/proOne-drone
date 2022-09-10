@@ -17,3 +17,8 @@ My goal was to simulate a professional work experience.
 * Create variables and mixins with sass to speed up future styling development.
 * I would create all the links to the pages and turn the site into a fully functioning eccommerce store. 
 * I would use Jest to test each component. 
+
+##### Available Scripts
+* Npm run start
+* Npm run eject
+*Npm run build
