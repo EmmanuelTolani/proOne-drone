@@ -1,16 +1,4 @@
 import React, { Component } from "react";
-<<<<<<< HEAD
-=======
-import ReactDOM from "react-dom";
-// import { gsap } from "gsap";
-import { CSSPlugin } from "gsap/CSSPlugin";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-// gsap.registerPlugin(ScrollTrigger);
-
-// // Force CSSPlugin to not get dropped during build
-// gsap.registerPlugin(CSSPlugin);
->>>>>>> 5af63291d3728c56faef04094271aafb6cd819f1
 
 export default class DroneReviews extends Component {
   constructor() {
@@ -53,11 +41,7 @@ export default class DroneReviews extends Component {
             key={index}
           >
             <div className="drone-reviews__img">
-<<<<<<< HEAD
               <img src={review.imgUrl} alt="customer image" />
-=======
-              <img src={review.imgUrl} alt="" />
->>>>>>> 5af63291d3728c56faef04094271aafb6cd819f1
             </div>
             <div className="drone-reviews__review">
               <i className="fas fa-quote-left"></i>

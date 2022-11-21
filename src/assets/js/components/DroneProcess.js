@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 import React, { useRef, useEffect } from "react";
-=======
-import React, { Component, useRef, useEffect } from "react";
-import ReactDOM from "react-dom";
->>>>>>> 5af63291d3728c56faef04094271aafb6cd819f1
 import { gsap } from "gsap";
 import { CSSPlugin } from "gsap/CSSPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -71,11 +66,7 @@ const DroneProcess = () => {
             <div className="process-left ">
               <div className="processImg-container">
                 {" "}
-<<<<<<< HEAD
                 <img src="/img/feature-1.png" alt="thumbs up" />
-=======
-                <img src="/img/feature-1.png" alt="" />
->>>>>>> 5af63291d3728c56faef04094271aafb6cd819f1
               </div>
 
               <h3>High Quality</h3>
@@ -86,11 +77,7 @@ const DroneProcess = () => {
             </div>
             <div className="process-left ">
               <div className="processImg-container">
-<<<<<<< HEAD
                 <img src="/img/feature-2.png" alt="attention to detail" />
-=======
-                <img src="/img/feature-2.png" alt="" />
->>>>>>> 5af63291d3728c56faef04094271aafb6cd819f1
               </div>
 
               <h3>Awesome Design</h3>
@@ -103,11 +90,7 @@ const DroneProcess = () => {
           <div className="drone-process__img">
             <img
               src="https://images.pexels.com/photos/3945676/pexels-photo-3945676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-<<<<<<< HEAD
               alt="white proOne drone"
-=======
-              alt=""
->>>>>>> 5af63291d3728c56faef04094271aafb6cd819f1
             />
             <div className="button-container">
               <div className="button">
@@ -120,11 +103,7 @@ const DroneProcess = () => {
           <div className="drone-process__right">
             <div className="process-right ">
               <div className="processImg-container">
-<<<<<<< HEAD
                 <img src="/img/feature-3.png" alt="Latest technology" />
-=======
-                <img src="/img/feature-3.png" alt="" />
->>>>>>> 5af63291d3728c56faef04094271aafb6cd819f1
               </div>
 
               <h3>Latest Technology</h3>
@@ -135,11 +114,7 @@ const DroneProcess = () => {
             </div>
             <div className="process-right ">
               <div className="processImg-container">
-<<<<<<< HEAD
                 <img src="/img/feature-4-1.png" alt="user Friendly" />
-=======
-                <img src="/img/feature-4-1.png" alt="" />
->>>>>>> 5af63291d3728c56faef04094271aafb6cd819f1
               </div>
 
               <h3>User Friendly</h3>

@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 import React, { useEffect, useRef } from "react";
-=======
-import React, { Component, useEffect, useRef } from "react";
-import ReactDOM from "react-dom";
->>>>>>> 5af63291d3728c56faef04094271aafb6cd819f1
 import { gsap } from "gsap";
 import { CSSPlugin } from "gsap/CSSPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -14,10 +9,6 @@ gsap.registerPlugin(ScrollTrigger);
 const DroneSpecs = () => {
   const el = useRef();
   const q = gsap.utils.selector(el);
-<<<<<<< HEAD
-=======
-  let top = gsap.utils.selector(".drone-specs");
->>>>>>> 5af63291d3728c56faef04094271aafb6cd819f1
   const tl = useRef();
   useEffect(() => {
     tl.current = gsap
@@ -82,7 +73,6 @@ const DroneSpecs = () => {
           <div className="drone-specs__all">
             <div className="drone-specs__all-specs">
               <div className="spec one">
-<<<<<<< HEAD
                 <img src="img/feature-2-1.png" alt="drone flight time" />
                 <div className="spec-text">
                   <h5>Flight time</h5>
@@ -97,25 +87,11 @@ const DroneSpecs = () => {
                 <div className="spec-text">
                   <h5>Transmission Distance</h5>
                   <h6>2 km</h6>
-=======
-                <img src="img/feature-2-1.png" alt="" />
-                <div className="spec-text">
-                  <h6>Flight time</h6>
-                  <h5>60 min</h5>
-                </div>
-              </div>
-              <div className="spec two">
-                <img src="img/feature-2-3.png" alt="" />
-                <div className="spec-text">
-                  <h6>Transmission Distance</h6>
-                  <h5>2 km</h5>
->>>>>>> 5af63291d3728c56faef04094271aafb6cd819f1
                 </div>
               </div>
             </div>
             <div className="drone-specs__all-specs">
               <div className="spec three">
-<<<<<<< HEAD
                 <img src="img/feature-2-2.png" alt="drone vps range" />
                 <div className="spec-text">
                   <h5>VPS range</h5>
@@ -127,19 +103,6 @@ const DroneSpecs = () => {
                 <div className="spec-text">
                   <h5>Effective Pixels</h5>
                   <h6>32 mp</h6>
-=======
-                <img src="img/feature-2-2.png" alt="" />
-                <div className="spec-text">
-                  <h6>VPS range</h6>
-                  <h5>189 m</h5>
-                </div>
-              </div>
-              <div className="spec four">
-                <img src="img/feature-2-4.png" alt="" />
-                <div className="spec-text">
-                  <h6>Effective Pixels</h6>
-                  <h5>32 mp</h5>
->>>>>>> 5af63291d3728c56faef04094271aafb6cd819f1
                 </div>
               </div>
             </div>
