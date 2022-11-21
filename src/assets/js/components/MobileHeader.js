@@ -7,7 +7,7 @@ const MobileHeader = () => {
       <div className="mobile-menu__container">
         <div className="mobile-menu__in">
           <div className="mobile-menu__logo">
-            <a>
+            <a href="/">
               <img src="/img/logo-1.png" alt="prone drones mobile logo" />
             </a>
           </div>

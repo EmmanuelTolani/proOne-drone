@@ -94,7 +94,7 @@ const DroneProcess = () => {
             />
             <div className="button-container">
               <div className="button">
-                <a href="">
+                <a href="/">
                   <i className="fas fa-shopping-cart"></i> Order Now
                 </a>
               </div>

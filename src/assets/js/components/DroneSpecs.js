@@ -75,8 +75,8 @@ const DroneSpecs = () => {
               <div className="spec one">
                 <img src="img/feature-2-1.png" alt="drone flight time" />
                 <div className="spec-text">
-                  <h5>Flight time</h5>
-                  <h6>60 min</h6>
+                  <h3>Flight time</h3>
+                  <h4>60 min</h4>
                 </div>
               </div>
               <div className="spec two">
@@ -85,8 +85,8 @@ const DroneSpecs = () => {
                   alt="drone transmission distance"
                 />
                 <div className="spec-text">
-                  <h5>Transmission Distance</h5>
-                  <h6>2 km</h6>
+                  <h3>Transmission Distance</h3>
+                  <h4>2 km</h4>
                 </div>
               </div>
             </div>
@@ -94,15 +94,15 @@ const DroneSpecs = () => {
               <div className="spec three">
                 <img src="img/feature-2-2.png" alt="drone vps range" />
                 <div className="spec-text">
-                  <h5>VPS range</h5>
-                  <h6>189 m</h6>
+                  <h3>VPS range</h3>
+                  <h4>189 m</h4>
                 </div>
               </div>
               <div className="spec four">
                 <img src="img/feature-2-4.png" alt="drone effective pixels" />
                 <div className="spec-text">
-                  <h5>Effective Pixels</h5>
-                  <h6>32 mp</h6>
+                  <h3>Effective Pixels</h3>
+                  <h4>32 mp</h4>
                 </div>
               </div>
             </div>
