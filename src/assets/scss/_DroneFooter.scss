@@ -1,0 +1,196 @@
+footer {
+    background: url("../img/footer-bg.svg");
+    background-size: cover;
+    background-position: center center;
+    height: 32vh;
+
+    #DroneFooter {
+        margin-top: 5rem;
+        padding: 10px 0 13px 30px;
+
+        .container {}
+    }
+
+    .DroneFooter-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2.5rem;
+        // padding: 0 3rem;
+    }
+
+    .DroneFooter-nav {
+        position: relative;
+        top: -1rem;
+        // padding: 0.7rem 2rem;
+        background: #443E9F;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer-logo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        img {}
+    }
+
+    .footer-nav {
+        ul {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            li {
+                padding: 0 .25rem;
+
+                a {
+                    color: white;
+                    transition: all .4s ease-in-out;
+
+                    &:hover {
+                        color: #FEAC01;
+                    }
+                }
+            }
+        }
+    }
+
+    .DroneFooter-icon_box {
+        margin-bottom: 3.2rem;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            li {
+                display: flex;
+                background: #6F62B5;
+                color: white;
+                border-radius: 50%;
+                padding: 10px 13px;
+                margin: 0 10px;
+                transition: all .4s ease-in-out;
+                cursor: pointer;
+
+                a {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                }
+
+                &:hover {
+                    background: #FEAC01;
+                }
+            }
+        }
+    }
+}
+
+#copyright-section {
+    background: url("../img/footer-bg.svg");
+    background-size: cover;
+    background-position: bottom center;
+    padding: 10px 0;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .copyright-text {
+        align-self: center;
+
+        p {
+            text-align: center;
+            color: white;
+        }
+
+    }
+}
+
+// Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 566px) {}
+
+// Extra small devices (phones, 600px and down)
+@media only screen and (min-width: 567px) {}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 767px) {
+    .DroneFooter {
+        padding: 10px 0 30px !important;
+    }
+
+    .DroneFooter-container {
+        padding: 0 3rem;
+        align-items: center !important;
+        justify-content: center !important;
+
+    }
+
+    .DroneFooter-nav {
+        padding: 0.7rem 2rem;
+        // margin-left: -150px;
+        position: relative;
+        top: -1rem;
+        padding: 0.7rem 2rem;
+        background: #443E9F;
+        display: flex !important;
+        flex-direction: row !important;
+        width: 100% !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+    }
+
+    .footer-nav {
+        ul {
+            margin-left: 1rem;
+            display: flex !important;
+            justify-content: space-between !important;
+            align-items: center !important;
+            flex-wrap: nowrap !important;
+
+            li {
+                padding: 0 1.25rem;
+
+                a {
+                    color: white;
+                    transition: all .4s ease-in-out;
+
+                    &:hover {
+                        color: #FEAC01;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .DroneFooter-nav {
+        padding: 0.7rem 2rem;
+        margin-left: -150px;
+        position: relative;
+        top: -1rem;
+        padding: 0.7rem 2rem;
+        background: #443E9F;
+        display: flex !important;
+        flex-direction: row !important;
+        width: 100% !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

@@ -1,0 +1,154 @@
+.drone-specs {
+    padding: 118px 50px 95px;
+
+    &__container {
+        display: flex;
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    &__title {
+        margin-top: 1.3rem;
+        color: #707070; //font color needed to be grey
+    }
+
+    &__overview {
+        font-size: 2.375rem;
+        line-height: 42px;
+    }
+
+    &__all {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        opacity: 1;
+    }
+
+    &__all-specs {
+        margin-top: 2.6rem; //create spoace between paragraph and icons
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+
+        .spec {
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-start;
+            opacity: 1;
+
+            img {
+                height: 72px;
+                padding-right: 14px;
+            }
+        }
+
+        .spec-text {
+            h5 {
+                font-size: 0.9275rem;
+                color: #707070;
+                margin: 0;
+            }
+
+            h6 {
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+        }
+    }
+
+    &__img {
+        object-fit: contain;
+        vertical-align: center;
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+}
+
+// Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 576px) {
+    .drone-specs {
+        // max-width: 500px;
+        width: 100%;
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+            justify-content: none;
+            align-items: flex-start;
+            gap: 100px;
+        }
+
+    }
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 577px) {
+    .drone-specs {
+        &__container {
+            flex-wrap: wrap;
+            gap: 80px;
+        }
+
+        &__all-specs {
+            display: flex;
+            flex-direction: column;
+            justify-content: none;
+            align-items: flex-start;
+        }
+    }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 767px) {
+    .drone-specs {
+        &__container {
+            flex-wrap: wrap;
+        }
+    }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .drone-specs {
+        &__container {
+            flex-wrap: nowrap;
+        }
+    }
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .drone-specs {
+        &__container {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
