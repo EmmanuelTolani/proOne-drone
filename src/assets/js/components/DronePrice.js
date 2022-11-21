@@ -1,4 +1,8 @@
 import React, { Component } from "react";
+<<<<<<< HEAD
+=======
+import ReactDOM from "react-dom";
+>>>>>>> 5af63291d3728c56faef04094271aafb6cd819f1
 import { gsap } from "gsap";
 import { CSSPlugin } from "gsap/CSSPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -63,14 +67,22 @@ export default class DronePrice extends Component {
               <h2>{price.title}</h2>
             </div>
             <div className="drone-price__single-img">
+<<<<<<< HEAD
               <img src={price.imgUrl} alt="prone drone product" />
+=======
+              <img src={price.imgUrl} alt="" />
+>>>>>>> 5af63291d3728c56faef04094271aafb6cd819f1
             </div>
             <div className="drone-price__price">
               <h1>${price.price}</h1>
               <p>{price.description}</p>
             </div>
             <div className="drone-price__btn">
+<<<<<<< HEAD
               <a href="/">
+=======
+              <a href="">
+>>>>>>> 5af63291d3728c56faef04094271aafb6cd819f1
                 <i className="fas fa-shopping-cart"></i>
                 Description
               </a>

@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 import React, { useRef, useEffect } from "react";
+=======
+import React, { Component, useRef, useEffect } from "react";
+import ReactDOM from "react-dom";
+>>>>>>> 5af63291d3728c56faef04094271aafb6cd819f1
 import { gsap } from "gsap";
 import { CSSPlugin } from "gsap/CSSPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -70,7 +75,11 @@ const DroneSubscribe = () => {
         <div className="drone-subscribe__img">
           <img
             src="https://images.pexels.com/photos/3226321/pexels-photo-3226321.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+<<<<<<< HEAD
             alt="prone drone flying over road"
+=======
+            alt=""
+>>>>>>> 5af63291d3728c56faef04094271aafb6cd819f1
           />
         </div>
       </div>

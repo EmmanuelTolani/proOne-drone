@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 import React from "react";
+=======
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
+>>>>>>> 5af63291d3728c56faef04094271aafb6cd819f1
 import DroneProcess from "./assets/js/components/DroneProcess";
 import DroneSpecs from "./assets/js/components/DroneSpecs.js";
 import DroneVideo from "./assets/js/components/DroneVideo.js";
