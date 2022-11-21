@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 import React, { useRef, useEffect } from "react";
-=======
-import React, { Component, useRef, useEffect, useState } from "react";
-import ReactDOM from "react-dom";
->>>>>>> 5af63291d3728c56faef04094271aafb6cd819f1
 import { gsap } from "gsap";
 import { CSSPlugin } from "gsap/CSSPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
