@@ -55,7 +55,7 @@ export default class DroneReviews extends Component {
               <i className="fas fa-star"></i>
             </div>
             <div className="drone-reviews-user">
-              <h5>{review.userName}</h5>
+              <h2>{review.userName}</h2>
               <p>{review.date}</p>
             </div>
           </li>
