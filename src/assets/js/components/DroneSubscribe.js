@@ -1,5 +1,7 @@
 import { gsap } from "gsap";
-
+import React, { useRef, useEffect } from "react";
+import { CSSPlugin } from "gsap/CSSPlugin";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 // Force CSSPlugin to not get dropped during build
 gsap.registerPlugin(CSSPlugin);
 
